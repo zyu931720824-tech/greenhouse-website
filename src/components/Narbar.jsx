@@ -1,6 +1,6 @@
 import { StickyNote } from "lucide";
 import React from 'react'
-import logo from "../assets/logo.png"
+import logo from "../assets/logo1.png"
 import { navItems } from "../constants/index.jsx";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -12,12 +12,12 @@ const Narbar = () => {
     };
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b 
-    border-neutral-700/80">
+    border-neutral-100">
         <div className="container px-4 mx-auto relative text-sm">
             <div className="flex justify-between items-center">
                 <div className="flex items-center flex-shrink-0">
                     <img className="h-10 w-10 mr-2" src={logo} alt="logo" />
-                    <span className="text-xl tracking-tight">VirtuaLR</span>
+                    <span className="text-xl tracking-tight">智水云棚</span>
                 </div>
                 <ul className="hidden lg:flex ml-14 space-x-12">
                     {navItems.map((item, index)=>(
@@ -30,7 +30,7 @@ const Narbar = () => {
                     <a href="#" className="py-2 px-3 border rounded-md">
                         Sign In
                     </a>
-                    <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3
+                    <a href="#" className="bg-gradient-to-r from-blue-400 to-cyan-500 py-2 px-3
                     rounded-md">
                         Create an account
                     </a>
@@ -42,7 +42,7 @@ const Narbar = () => {
                 </div>
             </div>
             {mobileDrawerOpen && (
-                <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12
+                <div className="fixed right-0 z-20 bg-neutral-100 w-full p-12
                 flex flex-col justify-center items-center lg:hidden">
                     <ul>
                         {navItems.map((item,index)=>(
@@ -55,7 +55,7 @@ const Narbar = () => {
                         <a href="#" className="py-2 px-3 border rounded-md">
                             Sign In
                         </a>
-                        <a href="#" className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800 
+                        <a href="#" className="py-2 px-3 rounded-md bg-gradient-to-r from-blue-400 to-cyan-500 
                     ">
                         Create an account
                     </a>
