@@ -1,5 +1,5 @@
 import React from 'react'
-import Video1  from '../assets/video1.mp4';
+// import Video1  from '../assets/video1.mp4';
 import Video2  from '../assets/video2.mp4';
 const HeroSection = () => {
   return (
@@ -24,12 +24,12 @@ const HeroSection = () => {
         </a>
       </div>
       <div className='flex mt-10 justify-center'>
-        <video autoPlay loop muted className='rounded-lg w-1/2 border border-cyan-700
+        {/* <video autoPlay loop muted className='rounded-lg w-1/2 border border-cyan-700
         shadow-cyan-400 mx-2 my-4'>
           <source src={Video1} type='video/mp4' />
           Your browser does not support the video tag.
-        </video>
-        <video autoPlay loop muted className='rounded-lg w-1/2 border border-cyan-700
+        </video> */}
+        <video autoPlay loop muted className='rounded-lg w-2/3 border border-cyan-700
         shadow-cyan-400 mx-2 my-4'>
           <source src={Video2} type='video/mp4' />
           Your browser does not support the video tag.
