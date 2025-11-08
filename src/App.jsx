@@ -14,8 +14,8 @@ const App = () => {
       <div className='max-w-7xl mx-auto pt-0 px-6'>
         <HeroSection />
         <FeatureSection />
-        <Workflow />
-        <Pricing />
+        {/* <Workflow /> */}
+        {/* <Pricing /> */}
         <Testimonials />
         <Footer />
       </div>

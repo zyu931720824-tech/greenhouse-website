@@ -13,88 +13,89 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "关于我们", href: "#" },
+  { label: "新闻资讯", href: "#" },
+  { label: "产品中心", href: "#" },
+  { label: "联系我们", href: "#" },
+  { label: "数据结构", href: "#" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "福建",
+    company: "漳州调研",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "福建漳州适种农田广，灌溉粗放费水、施肥不当、土培致病虫害（尤西红柚），急需智能节水温室大棚赋能。",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "广西",
+    company: "南宁调研",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "南宁粮蔗种得多、熟期偏长，AI 决策与水培技术能破种植痛点。",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "广东",
+    company: "广州调研",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "广州农田量较广西少，作物受大小年困扰，我方产品能针对性改善。",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "广东",
+    company: "湛江调研",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "传统漫灌节水率低，每亩年浪费水 200 吨；土培根腐病、姜螟发生率 18%-22%，农药依赖严重。",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "云南",
+    company: "大理调研",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "良姜幼苗耐低温性差，冻伤率超 40%；智能设备普及率低，传统种植管理粗放。",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "广东",
+    company: "潮州调研",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "黏壤土占比 75%，含氧量＜10%；良姜根茎发育不良，单株减产 25%+。",
   },
 ];
 
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "智能适配环境参数",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "DeepSeek API 能实时分析，动态生成最优阈值，助力动态调整，实现低成本调控且准确率高，联动时间短。",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "多参数耦合AI决策模型",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "多参数耦合模型整合温湿度、光照等数据，通过deepseek API生成协同策略，大幅提升控制精度与响应速度。实现高效节水，缓解水资源短缺痛点。",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "水培种养共生集成技术",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "传统土培技术存在缺点病虫害于是我们采用雾、水培模式有效隔绝传播病毒的途径，能量利用率高，减少病虫害。",
   },
-  {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
-    description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
-  },
-  {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
-    description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
-  },
-  {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
-    description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
-  },
+  // {
+  //   icon: <BatteryCharging />,
+  //   text: "Real-Time Preview",
+  //   description:
+  //     "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+  // },
+  // {
+  //   icon: <PlugZap />,
+  //   text: "Collaboration Tools",
+  //   description:
+  //     "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+  // },
+  // {
+  //   icon: <GlobeLock />,
+  //   text: "Analytics Dashboard",
+  //   description:
+  //     "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+  // },
 ];
 
 export const checklistItems = [
@@ -154,25 +155,25 @@ export const pricingOptions = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "关于我们" },
+  { href: "#", text: "新闻资讯" },
+  { href: "#", text: "产品中心" },
+  { href: "#", text: "联系我们" },
+  { href: "#", text: "数据结构" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "总览" },
+  { href: "#", text: "数据" },
+  { href: "#", text: "警报" },
+  { href: "#", text: "设置" },
+  { href: "#", text: "报表" },
 ];
 
-export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
-];
+// export const communityLinks = [
+//   { href: "#", text: "Events" },
+//   { href: "#", text: "Meetups" },
+//   { href: "#", text: "Conferences" },
+//   { href: "#", text: "Hackathons" },
+//   { href: "#", text: "Jobs" },
+// ];

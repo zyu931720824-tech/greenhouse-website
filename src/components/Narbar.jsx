@@ -28,11 +28,11 @@ const Narbar = () => {
                 </ul>
                 <div className="hidden lg:flex justify-center space-x-12 items-center">
                     <a href="#" className="py-2 px-3 border rounded-md">
-                        Sign In
+                        注册账户
                     </a>
                     <a href="#" className="bg-gradient-to-r from-blue-400 to-cyan-500 py-2 px-3
                     rounded-md">
-                        Create an account
+                        登录账户
                     </a>
                 </div>
                 <div className="lg:hidden md:flex flex-col justify-end">
@@ -42,7 +42,7 @@ const Narbar = () => {
                 </div>
             </div>
             {mobileDrawerOpen && (
-                <div className="fixed right-0 z-20 bg-neutral-100 w-full p-12
+                <div className="fixed right-0 z-20 bg-neutral-50 w-full p-12
                 flex flex-col justify-center items-center lg:hidden">
                     <ul>
                         {navItems.map((item,index)=>(
@@ -53,11 +53,11 @@ const Narbar = () => {
                     </ul>
                     <div className="flex space-x-6">
                         <a href="#" className="py-2 px-3 border rounded-md">
-                            Sign In
+                            注册账户
                         </a>
                         <a href="#" className="py-2 px-3 rounded-md bg-gradient-to-r from-blue-400 to-cyan-500 
                     ">
-                        Create an account
+                        登录账户
                     </a>
                     </div>
                 </div>
